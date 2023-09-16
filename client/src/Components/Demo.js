@@ -55,8 +55,8 @@ const Demo = () => {
         img.src = backgroundImage;
 
         img.onload = () => {
-        const width = img.width;
-        const height = img.height;
+        const width = img.width - 2;
+        const height = img.height - 2;
 
 
         // Set the canvas width and height based on the image dimensions
@@ -181,12 +181,6 @@ const Demo = () => {
           />
         )
     }
-        <div>
-          <h2>Cropped Image:</h2>
-          <img src={croppedImage} alt="Cropped" />
-          <h2>NON Image:</h2>
-          <img src={backgroundImage} alt="Cropped" />
-        </div>
       <button
         onClick={() => {
             // console.log(realHeight, realWidth);
@@ -216,12 +210,12 @@ const Demo = () => {
           .then(dataURL => {
             // Create a temporary download link
             // console.log(dataURL);
-            // const downloadLink = document.createElement("a");
-            // downloadLink.href = dataURL;
-            // downloadLink.download = "lolll.png";
+            const downloadLink = document.createElement("a");
+            downloadLink.href = backgroundImage;
+            downloadLink.download = "real.png";
 
-            // // Trigger a click event on the download link
-            // downloadLink.click();
+            // Trigger a click event on the download link
+            downloadLink.click();
             // After downloading, modify the image
             const image = new Image();
             image.src = dataURL;
@@ -255,7 +249,7 @@ const Demo = () => {
             const modifiedDataURL = canvas.toDataURL("image/png");
             const modifiedDownloadLink = document.createElement("a");
             modifiedDownloadLink.href = modifiedDataURL;
-            modifiedDownloadLink.download = "real.png";
+            modifiedDownloadLink.download = "mask.png";
             modifiedDownloadLink.click();
             };
 
