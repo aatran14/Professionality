@@ -1,9 +1,6 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
-  height: 40vmin;
+
   pointer-events: none;
 }
 
@@ -12,17 +9,147 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+body, html{
+  width: 100%;
+}
+body {
+  overflow-x: hidden;
+  background-color: white;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
 }
+/* Navbar styles */
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: none; /* Navbar background color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding around the navbar */
+}
+
+/* Left-justified brand name */
+.navbar-brand {
+  text-decoration: none; /* Remove underlines from the brand name */
+  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: bold; /* Optionally make the brand name bold */
+  margin-left: 90%;
+  color: #18A1FE;
+}
+
+/* Right-justified buttons */
+.navbar-right {
+  margin-right:15%;
+  display: flex;
+  gap: 10px; /* Spacing between buttons */
+}
+
+/* Style for the buttons */
+.navbar-button {
+  color: gray; /* Button text color */
+  border: 2px solid lightgray; /* Remove button borders */
+  padding: 10px 16px; /* Button padding */
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer; /* Shofw a pointer cursor on hover */
+  background: white;
+}
+
+/* Style for button hover effect */
+.navbar-button:hover {
+  background-color: lightgray; /* Darker background color on hover */
+}
+
+.intro{
+  margin-top:100px;
+  text-align: center;
+
+}
+.professional-blue{
+  color: #18A1FE;
+}
+.professional-blue-dot{
+  color: #18A1FE;
+
+  font-size:70px;
+}
+
+.intro-subtext{
+  color: gray;
+  font-size: 18px;
+}
+
+.try-button{
+
+  margin-top:50px;
+  padding-top: none;
+  width: 250px;
+  height: 40px;
+  box-shadow: 0px 0 100px  -10px #18A1FE;
+  border-radius: 5px;
+  border: 2px solid #18A1FE;
+}
+.intro-hr{
+  width: 100px;
+  height: 2px;
+  margin-top:50px;
+  background-color: #18A1FE;
+  border: none;
+  box-shadow: 0 0 10px #18A1FE;
+}
+
+
+
+.Try-me{
+  text-align: center;
+}
+h1{
+  line-height:0.5;
+  font-size: 50px;
+
+}
+
+.Quote-Image-Container{
+  display: flex;
+  flex-direction: row;
+}
+.quote{
+  margin-left:9%;
+  margin-right: 5%;
+  color: gray;
+  width: 700px;
+  height: 200px;
+  background-color: #FAFAFA;
+  border-radius: 25px;
+  font-size: 20px;
+  line-height: 1.5;
+  
+}
+.words{
+  padding-top: 25px;
+  
+  margin-left: 45px;
+  margin-right: 25px;
+}
+
+.author{
+  margin-left: 50px;
+}
+.footer {
+  font-size: 15px;
+  justify-content: center!important;
+  display: flex;
+  padding: 20px;
+  width: 100%;
+
+}
+
 
 .App-link {
   color: #61dafb;
