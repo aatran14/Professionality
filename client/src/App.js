@@ -3,6 +3,7 @@ import Intro from "./Components/Intro";
 import Footer from "./Components/Footer";
 import Demo from "./Components/Demo";
 import Quote from "./Components/Quote";
+import Crop from "./Components/CropComp";
 import './App.css';
 
 function App() {

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "cropperjs": "^1.6.0",
+    "react-cropper": "^2.3.3",
+    "react-dom": "^18.2.0",
+    "react-image-crop": "^10.1.8"
+  }
+}
