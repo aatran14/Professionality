@@ -26,12 +26,12 @@ export default function Tutorial() {
 
         <div className="instruction-set">        
         <img src={solidTwo}style={{aspectRatio: 50/50}} width="30px" alt="numberOne" className="number"></img>
-        <p className="instruction">Upload an image :)</p>
+        <p className="instruction">Outline your image</p>
         </div>
 
         <div className="instruction-set">      
           <img src={solidThree}style={{aspectRatio: 50/50}} width="30px" alt="numberOne" className="number"></img>
-          <p className="instruction">Upload an image :)</p>
+          <p className="instruction"></p>
 
         </div>
         </div>

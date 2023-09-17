@@ -52,17 +52,16 @@ arrows={true}
 <div className="blog-carousel-images">
 <p className="words">
     "Enabling underrepresented communities is one of the most interesting challenges in the world.
-     <span className="ProFresh"> ProFresh</span> helps people who change the world change the world."</p>
+     <span className="ProFresh"><b> ProFresh</b></span> helps people who change the world change the world."</p>
     <p className="author">
     - Andy Tran Co-Founder
     </p>
-    </div>
-    <div className="blog-carousel-images">
+  </div>
+  <div className="blog-carousel-images">
 <p className="words">
-    "Enabling underrepresented communities is one of the most interesting challenges in the world.
-    ProFresh helps people who change the world change the world."</p>
+    Our students use <span className="ProFresh"><b> ProFresh</b></span> because it <b>instantly</b> enables a form of change that they otherwise wouldn't have the resources to do.</p>
     <p className="author">
-    - TS Co-Founder
+    - Teacher
     </p>
     </div>
 </Carousel>
