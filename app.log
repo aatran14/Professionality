@@ -1,0 +1,16 @@
+2023-09-16 21:06:04,542 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-09-16 21:06:04,542 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-09-16 21:06:04,542 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-09-16 21:06:04,542 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-09-16 21:06:04,542 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-09-16 21:06:04,542 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-09-16 21:06:04,542 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-09-16 21:06:04,542 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 54 9
+2023-09-16 21:06:04,542 - PIL.PngImagePlugin - DEBUG - STREAM b'PLTE' 75 522
+2023-09-16 21:06:04,542 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 609 6215
+2023-09-16 21:06:04,542 - __main__ - DEBUG - <class 'PIL.PngImagePlugin.PngImageFile'>
+2023-09-16 21:06:04,542 - __main__ - DEBUG - <class 'PIL.PngImagePlugin.PngImageFile'>
+2023-09-16 21:06:04,650 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2023-09-16 21:06:04,987 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /lllyasviel/control_v11p_sd15_inpaint/resolve/main/config.json HTTP/1.1" 200 0
+2023-09-16 21:06:05,761 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/runwayml/stable-diffusion-v1-5 HTTP/1.1" 200 59872
+2023-09-16 21:06:05,836 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /runwayml/stable-diffusion-v1-5/resolve/main/model_index.json HTTP/1.1" 200 0

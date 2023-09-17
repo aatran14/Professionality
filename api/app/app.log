@@ -1,0 +1,47 @@
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_header_value with data[63:111]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_header_field with data[113:125]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_header_value with data[127:136]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_part_data with data[140:16384]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_part_data with data[0:16248]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_part_data with data[0:1]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_part_data with data[16249:20630]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_part_data with data[0:1]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_part_data with data[20631:115627]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_part_data with data[0:1]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_part_data with data[115628:131072]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_part_data with data[0:131072]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_part_data with data[0:17350]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_part_data with data[0:1]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_part_data with data[17351:59507]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_header_field with data[59551:59570]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_header_value with data[59572:59621]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_header_field with data[59623:59635]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_header_value with data[59637:59646]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_part_data with data[59650:63423]
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2023-09-16 15:43:07,179 - multipart.multipart - DEBUG - Calling on_end with no data
+2023-09-16 15:43:07,192 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-09-16 15:43:07,192 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-09-16 15:43:07,192 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2023-09-16 15:43:07,192 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2023-09-16 15:43:07,192 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2023-09-16 15:43:07,199 - PIL.PngImagePlugin - DEBUG - STREAM b'eXIf' 337865 14
+2023-09-16 15:43:07,199 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2023-09-16 15:43:07,199 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2023-09-16 15:43:07,199 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 54 9
+2023-09-16 15:43:07,199 - PIL.PngImagePlugin - DEBUG - STREAM b'PLTE' 75 756
+2023-09-16 15:43:07,199 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 843 2914
+2023-09-16 15:43:07,213 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2023-09-16 15:43:07,560 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /lllyasviel/control_v11p_sd15_inpaint/resolve/main/config.json HTTP/1.1" 200 0
+2023-09-16 15:43:10,624 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/runwayml/stable-diffusion-v1-5 HTTP/1.1" 200 59872
+2023-09-16 15:43:10,714 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /runwayml/stable-diffusion-v1-5/resolve/main/model_index.json HTTP/1.1" 200 0
