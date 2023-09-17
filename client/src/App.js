@@ -1,6 +1,8 @@
 import Navbar from "./Components/Navbar";
 import Intro from "./Components/Intro";
 import Footer from "./Components/Footer";
+import Tutorial from "./Components/Tutorial";
+
 import Demo from "./Components/Demo";
 import Quote from "./Components/Quote";
 import Crop from "./Components/CropComp";
@@ -12,11 +14,8 @@ function App() {
       
       <Navbar/>
       <Intro/>
-        <p>
-        Trying something new with Professionality
-        </p>
       <Quote/>
-      <Demo/>
+      <Tutorial/>
       <Footer/>
    
     </div>

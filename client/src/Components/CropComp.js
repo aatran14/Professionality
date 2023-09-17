@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 import Cropper from 'react-cropper';
 import 'cropperjs/dist/cropper.css';
+import '../App.css';
+
 
 function ImageCropper() {
   const [imageSrc, setImageSrc] = useState('');
@@ -48,9 +50,10 @@ function ImageCropper() {
         </div>
       )}
       {croppedImage && (
-        <div>
+        <div className="my-cropped-image">
           <h2>Cropped Image:</h2>
-          <img src={croppedImage} alt="Cropped" />
+          <img src={croppedImage}style={{aspectRatio: 50/50}} width="50px" alt="Cropped"></img>
+
         </div>
       )}
     </div>

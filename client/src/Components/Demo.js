@@ -2,6 +2,10 @@ import React, { useState, useRef, useEffect } from 'react';
 import { ReactSketchCanvas } from "react-sketch-canvas";
 import Cropper from 'react-cropper';
 import 'cropperjs/dist/cropper.css';
+import './Demo.css';
+import '../App.css';
+
+
 
 const styles = {
   border: "0.0625rem solid #9c9c9c",
@@ -30,7 +34,7 @@ const Demo = () => {
   // Function to handle cropping
   const handleCrop = () => {
     if (cropperRef.current) {
-      cropperRef.current.getCroppedCanvas({ width: 700, height: 700 }).toBlob((blob) => {
+      cropperRef.current.getCroppedCanvas({ width: 350, height: 350 }).toBlob((blob) => {
         const croppedImageURL = URL.createObjectURL(blob);
         setCroppedImage(croppedImageURL);
         setrealHeight(croppedImageURL.width);
@@ -56,7 +60,7 @@ const Demo = () => {
 
         img.onload = () => {
         const width = img.width - 2;
-        const height = img.height - 2;
+        const height = img.height -2;
 
 
         // Set the canvas width and height based on the image dimensions
@@ -130,13 +134,14 @@ const Demo = () => {
 
   if(!croppedImage){
     return (
-        <div>
+        <div className="choose-file">
+
       <input type="file" accept="image/*" onChange={handleFileChange} />
       {imageSrc && (
         <div>
           <Cropper
             src={imageSrc}
-            style={{ maxHeight: '400px', width: '100%' }}
+            style={{ maxHeight: '100%', width:"100%" }}
             initialAspectRatio={1}
             guides={true}
             viewMode={2}
@@ -155,7 +160,7 @@ const Demo = () => {
   }
 
   return (
-    <div>
+    <div className="super-cropper">
     {
         backgroundImage === "" ? (
             <ReactSketchCanvas
@@ -167,6 +172,7 @@ const Demo = () => {
                 height= {realHeight}
                 backgroundImage={croppedImage}
                 exportWithBackgroundImage = {false}
+                className='super-duper-cropper'
             />
         ):(
             <ReactSketchCanvas
@@ -174,10 +180,13 @@ const Demo = () => {
             strokeWidth={20}
             strokeColor="black"
             canvasColor="white"
+            // aspectRatio ="1/1"
             width= {realWidth}
             height= {realHeight}
+          
             backgroundImage={backgroundImage}
             exportWithBackgroundImage = {false}
+
           />
         )
     }
